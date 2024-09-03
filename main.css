@@ -8,6 +8,7 @@
     background-color: #12181B;
     height: 100vh;
     padding-top: 1px;
+    padding-bottom: 2em;
 }
 
 .title {
@@ -34,7 +35,7 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     max-width: 300px;
-
+    flex-grow: 1;
 }
 
 .celda {
@@ -61,7 +62,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .controls button {
@@ -80,4 +81,5 @@
 
 #reset {
     background-color: #FF3860;
+    padding: 4px 16px;
 }
